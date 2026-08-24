@@ -47,9 +47,9 @@ Zebrana w [`../../docs/components-reference.md`](../../docs/components-reference
 
 **Co zrobiłem:**
 - Ustaliłem zakres v1 płytki (patrz wyżej)
-- Zebrałem dokumentację i potwierdziłem dostępność symboli/footprintów dla: STM32F411CEU6, AP2112K-3.3, złącze USB-C, złącze SWD, rezonator 8MHz (odłożony do Rev B)
+- Zebrałem dokumentację i potwierdziłem dostępność symboli/footprintów dla: STM32F411CEU6, złącze USB-C
 - Założyłem strukturę repozytorium
-
+- Stworzyłem sekcję zasilania do mcu 
 **Co nie zadziałało / problemy:**
 - —
 
@@ -60,37 +60,3 @@ Zebrana w [`../../docs/components-reference.md`](../../docs/components-reference
 **Następny krok:**
 - Zweryfikować pobrane/wbudowane symbole i footprinty 1:1 z datasheetami
 - Zbudować schemat w KiCad (zasilanie → MCU → peryferia → złącza)
-
-### 2026-08-24 — dobór komponentów pod montaż PCBA (JLCPCB)
-
-**Co zrobiłem:**
-- Sprawdziłem dostępność każdego komponentu w katalogu montażowym JLCPCB (LCSC) — bo docelowo płytka ma być zamawiana jako gotowo złożona (PCBA), a nie lutowana ręcznie
-- Znalazłem konkretne numery LCSC dla MCU (`C60420`), LDO (`C51118`), złącza USB-C (`C2987385`), rządka pinów pod SWD/GPIO (`C2977586`), tact switcha (`C66637`) — szczegóły w `../../docs/components-reference.md`
-
-**Co nie zadziałało / problemy:**
-- Pierwotna rekomendacja złącza SWD (box header 2×5 1.27mm) okazała się mieć status "Extended" i zerowy aktualny stan magazynowy w JLCPCB — zmieniłem na prosty rządek 2.54mm ciachany z taśmy, dużo lepiej dostępny
-
-**Czego się nauczyłem:**
-- **Poprawka błędu:** oznaczenie `STM32F411CEU6` to obudowa **UFQFPN-48** (QFN, pady na spodzie + exposed pad), nie LQFP48 jak wcześniej założyłem — sprawdź to zawsze na karcie części u dostawcy, nie tylko po "podobieństwie" do innych projektów
-- Footprint złącza USB-C jest specyficzny dla konkretnego producenta/modelu — nie ma jednego uniwersalnego footprintu na "USB-C 6-pin", trzeba dobrać dokładnie pod zamówioną część
-- JLCPCB dzieli komponenty na Basic/Preferred/Extended — to wpływa i na koszt (opłata za feeder), i na ryzyko braku w magazynie; warto to sprawdzać przy każdym doborze części, nie tylko w tym projekcie
-- Stan magazynowy zmienia się codziennie — numery LCSC to punkt startowy do BOM, ale wymagają weryfikacji tuż przed zamówieniem
-
-**Następny krok:**
-- Zbudować schemat w KiCad z tymi konkretnymi komponentami
-- Pobrać/zweryfikować footprint złącza USB-C (`C2987385`) dopasowany dokładnie do tej części
-
-### 2026-08-24 — konsolidacja repo (branch `1STM` → `main`)
-
-**Co zrobiłem:**
-- Znalazłem już założony projekt KiCad (`1STM.kicad_pro` + puste `.kicad_sch`/`.kicad_pcb`) na osobnym branchu `1STM` i przeniosłem go do docelowej struktury `projects/01-stm32-mini-devboard/hardware/kicad/` na `main`
-- Dodałem `.gitignore` pod pliki tymczasowe/backupy KiCad (m.in. `1STM-backups/`, żeby nie śmiecić historii repo dużymi zipami)
-
-**Co nie zadziałało / problemy:**
-- —
-
-**Czego się nauczyłem:**
-- Trzymanie realnej pracy na osobnym branchu, którego nikt nie widzi z poziomu `main`, psuje repo jako portfolio — ktoś oglądający tylko główną gałąź zobaczy sam README. Warto pracować bezpośrednio na `main` (albo scalać branch roboczy regularnie), skoro celem jest też pokazywanie postępu.
-
-**Następny krok:**
-- Zbudować schemat w KiCad (Faza A z planu projektu)
