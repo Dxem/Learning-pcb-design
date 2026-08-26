@@ -2046,6 +2046,17 @@
 					)
 				)
 			)
+			(property "Field5" "https://www.tme.eu/pl/details/ap2112k-3.3trg1/stabilizatory-napiecia-nieregulowane-ldo/diodes-incorporated/"
+				(at 0.762 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "600mA LDO Regulator Fixed Positive"
 				(at 0 0 0)
 				(show_name no)
@@ -2082,11 +2093,10 @@
 				)
 			)
 			(symbol "AP22112K-3.3TRG1_1_1"
-				(pin no_connect line
-					(at 5.08 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2137,10 +2147,11 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin no_connect line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "VIN"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5683,7 +5694,7 @@
 			)
 		)
 		(property "Field5" "https://www.tme.eu/pl/details/ap2112k-3.3trg1/stabilizatory-napiecia-nieregulowane-ldo/diodes-incorporated/"
-			(at 148.59 29.21 0)
+			(at 149.352 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
