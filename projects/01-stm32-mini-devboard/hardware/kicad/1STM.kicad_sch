@@ -4152,7 +4152,7 @@
 	)
 	(rectangle
 		(start 248.92 71.12)
-		(end 279.4 92.71)
+		(end 274.32 92.71)
 		(stroke
 			(width 0)
 			(type default)
@@ -4249,7 +4249,7 @@
 	)
 	(text "SWD"
 		(exclude_from_sim no)
-		(at 277.876 72.644 0)
+		(at 273.05 72.898 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4268,7 +4268,7 @@
 		)
 		(uuid "89a1a102-abdd-4b5a-add9-6d1c73e9d376")
 	)
-	(text "P???"
+	(text "USR_SW PA9"
 		(exclude_from_sim no)
 		(at 20.574 168.148 0)
 		(effects
@@ -4288,9 +4288,9 @@
 		)
 		(uuid "ef68b129-5105-4615-aa55-623f22413cdf")
 	)
-	(text "P???_LED"
+	(text "USR_LED PA8"
 		(exclude_from_sim no)
-		(at 37.084 96.012 0)
+		(at 38.354 96.012 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4369,10 +4369,6 @@
 		(uuid "0447fd02-b3d7-42ea-80b4-2ef167c893d9")
 	)
 	(no_connect
-		(at 222.25 63.5)
-		(uuid "057657ed-f063-4953-8fe9-533f3d180de7")
-	)
-	(no_connect
 		(at 186.69 78.74)
 		(uuid "07ae0169-1a7f-418a-8ece-d09bc67fefc6")
 	)
@@ -4383,10 +4379,6 @@
 	(no_connect
 		(at 222.25 48.26)
 		(uuid "0dabb0ef-7f43-4187-82fb-968b2641d968")
-	)
-	(no_connect
-		(at 222.25 60.96)
-		(uuid "2f829ec5-bf72-47e2-b4fd-cf1897d73f8f")
 	)
 	(no_connect
 		(at 222.25 66.04)
@@ -4691,6 +4683,16 @@
 			(type default)
 		)
 		(uuid "3a3a5569-2aba-4530-a851-feca33893497")
+	)
+	(wire
+		(pts
+			(xy 222.25 60.96) (xy 232.41 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a4bb71e-5fb9-4aa8-b7e5-cc55f8a5d1e0")
 	)
 	(wire
 		(pts
@@ -5344,6 +5346,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 63.5) (xy 232.41 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae702ec-f058-4db0-88b2-cccb36dfa974")
+	)
+	(wire
+		(pts
 			(xy 33.02 110.49) (xy 36.83 110.49)
 		)
 		(stroke
@@ -5441,6 +5453,16 @@
 			(justify left bottom)
 		)
 		(uuid "1838283d-882d-48cf-b30a-556c2fd60525")
+	)
+	(label "USR_SW"
+		(at 223.52 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1adf40da-8a29-459b-bd3c-cacffa285fe3")
 	)
 	(label "NRST"
 		(at 182.88 40.64 0)
@@ -5662,6 +5684,16 @@
 		)
 		(uuid "b9fd98d6-f32b-46e1-ae3b-aa6e1460be32")
 	)
+	(label "USR_LED"
+		(at 223.52 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbc76f93-2b3a-497f-8f3a-904a0c450ea3")
+	)
 	(label "I2S2_SD"
 		(at 166.37 93.98 0)
 		(effects
@@ -5870,6 +5902,30 @@
 			)
 		)
 	)
+	(global_label "USR_SW"
+		(shape input)
+		(at 24.13 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24b1741d-ed51-4b1f-98cb-2801a4888c8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.1164 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "D+_USB"
 		(shape input)
 		(at 232.41 71.12 0)
@@ -5883,6 +5939,30 @@
 		(uuid "253099ce-c88c-41a5-835c-818d4941e37d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 239.1308 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USR_LED"
+		(shape input)
+		(at 232.41 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f19d58e-1642-40fd-a2ef-75fd41b0ff3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.6444 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6107,6 +6187,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "USR_SW"
+		(shape input)
+		(at 232.41 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d58b7707-63b5-49c2-b9c4-97dd9c6d112d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.4236 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USR_LED"
+		(shape input)
+		(at 36.83 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d978d55b-9714-4d5a-af87-0827ee39ebe8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0644 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6819,7 +6947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 267.97 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6830,7 +6958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/XFCN-PZ254V_1104P/C2691448"
 			(at 267.97 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6983,7 +7111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 160.02 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6994,7 +7122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/XFCN-PZ254V_1102P/C492401"
 			(at 160.02 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8729,7 +8857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8740,7 +8868,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/XFCN-PZ254V_1103P/C2937625"
 			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9134,7 +9262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 160.02 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9145,7 +9273,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/XFCN-PZ254V_1103P/C2937625"
 			(at 160.02 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9853,7 +9981,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x05_Pin"
+		(property "Value" "SWD 5P"
 			(at 269.24 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9864,7 +9992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 267.97 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9875,7 +10003,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/125654-B_2100S05PA110/C124379"
 			(at 267.97 80.01 0)
 			(hide yes)
 			(show_name no)
