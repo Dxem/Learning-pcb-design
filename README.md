@@ -47,7 +47,7 @@ Nie jest to sztywna zasada — chodzi o czytelną historię, którą łatwo prze
 
 | Projekt | Status | Opis |
 |---|---|---|
-| [01-stm32-mini-devboard](projects/01-stm32-mini-devboard/) | 🟡 w toku — dobór komponentów zakończony, schemat zawiera sekcję zasilania, swd, ldo - minimal config jest | Minimalna płytka dev ze STM32F411, USB-C, SWD; też carrier testowy dla modułów 02-05 |
+| [01-stm32-mini-devboard](projects/01-stm32-mini-devboard/) | 🟡 w toku — dobór komponentów zakończony, schemat 🟢, pcb layout 🟡  | Minimalna płytka dev ze STM32F411, USB-C, SWD; też carrier testowy dla modułów 02-05 |
 | [02-nrf24-radio-module](projects/02-nrf24-radio-module/) | 🟡 w toku — plan gotowy, schemat do zrobienia | Moduł radiowy nRF24L01+ (bare chip), własna antena, test punkty na SPI |
 | [03-audio-adc-frontend](projects/03-audio-adc-frontend/) | 🟡 w toku — plan gotowy, schemat do zrobienia | Wejście audio: jack 3.5mm → PCM1808 (ADC) → I2S |
 | [04-audio-dac-backend](projects/04-audio-dac-backend/) | 🟡 w toku — plan gotowy, schemat do zrobienia | Wyjście audio: I2S → PCM5102A (DAC) → NS4160 (wzmacniacz) → jack 3.5mm |
