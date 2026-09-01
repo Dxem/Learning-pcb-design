@@ -4555,7 +4555,7 @@
 	)
 	(text "NOTE 1"
 		(exclude_from_sim no)
-		(at 161.544 46.482 0)
+		(at 166.116 46.228 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4596,7 +4596,7 @@
 	)
 	(text "USR_SW PA9"
 		(exclude_from_sim no)
-		(at 20.574 168.148 0)
+		(at 20.574 160.528 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4631,7 +4631,7 @@
 		(uuid "0ac9c105-8599-4076-a03a-0a1a8e4e8cc6")
 	)
 	(junction
-		(at 26.67 147.32)
+		(at 26.67 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18850cab-94b6-456e-90ac-a453175d0b57")
@@ -4685,7 +4685,7 @@
 		(uuid "63470ad5-68c8-4343-96a7-bd50144da17c")
 	)
 	(junction
-		(at 49.53 147.32)
+		(at 49.53 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d2c07b9-897f-4d63-984d-cb81b4a2f7d7")
@@ -4727,7 +4727,7 @@
 		(uuid "dd29cd53-1565-4593-9f22-cb0ac0415bcc")
 	)
 	(junction
-		(at 26.67 139.7)
+		(at 26.67 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e06b64c3-3297-45ee-8605-e15b5aa9f172")
@@ -4836,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 154.94) (xy 38.1 154.94)
+			(xy 26.67 146.05) (xy 38.1 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4916,7 +4916,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 139.7) (xy 26.67 147.32)
+			(xy 26.67 130.81) (xy 26.67 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4933,6 +4933,16 @@
 			(type default)
 		)
 		(uuid "172b0ecc-d48f-4a59-8a82-c8b8cc96f4f3")
+	)
+	(wire
+		(pts
+			(xy 175.26 45.72) (xy 177.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2279e3-6ba2-4bce-91fe-efc8f05832db")
 	)
 	(wire
 		(pts
@@ -4956,7 +4966,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 147.32) (xy 53.34 147.32)
+			(xy 49.53 138.43) (xy 53.34 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5026,7 +5036,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 171.45) (xy 38.1 171.45)
+			(xy 35.56 163.83) (xy 38.1 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5196,7 +5206,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 147.32) (xy 26.67 147.32)
+			(xy 21.59 138.43) (xy 26.67 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5243,6 +5253,16 @@
 			(type default)
 		)
 		(uuid "4be02fea-0414-450e-a8a3-a27f350246a9")
+	)
+	(wire
+		(pts
+			(xy 26.67 120.65) (xy 26.67 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0abef1-c202-4801-b7f2-a988325f5874")
 	)
 	(wire
 		(pts
@@ -5316,7 +5336,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 154.94) (xy 49.53 154.94)
+			(xy 45.72 146.05) (xy 49.53 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5446,7 +5466,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 147.32) (xy 26.67 154.94)
+			(xy 26.67 138.43) (xy 26.67 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5616,7 +5636,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 138.43) (xy 26.67 139.7)
+			(xy 26.67 129.54) (xy 26.67 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5666,7 +5686,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 171.45) (xy 27.94 171.45)
+			(xy 24.13 163.83) (xy 27.94 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5686,7 +5706,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 171.45) (xy 52.07 171.45)
+			(xy 48.26 163.83) (xy 52.07 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5716,7 +5736,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 154.94) (xy 49.53 147.32)
+			(xy 49.53 146.05) (xy 49.53 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5796,7 +5816,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 147.32) (xy 49.53 139.7)
+			(xy 49.53 138.43) (xy 49.53 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5826,7 +5846,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 139.7) (xy 26.67 139.7)
+			(xy 33.02 130.81) (xy 26.67 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6036,7 +6056,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 139.7) (xy 43.18 139.7)
+			(xy 49.53 130.81) (xy 43.18 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6388,7 +6408,7 @@
 	)
 	(global_label "USR_SW"
 		(shape input)
-		(at 24.13 171.45 180)
+		(at 24.13 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6398,7 +6418,7 @@
 		)
 		(uuid "24b1741d-ed51-4b1f-98cb-2801a4888c8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.1164 171.45 0)
+			(at 17.1164 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6700,7 +6720,7 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 21.59 147.32 180)
+		(at 21.59 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6710,7 +6730,7 @@
 		)
 		(uuid "d3e18f6a-5e7f-40b6-b8e4-d9c2ca5edb74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.2825 147.32 0)
+			(at 16.2825 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6819,85 +6839,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 173.99 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "01dde6f8-9805-4e69-b1b3-ab4d3280148b")
-		(property "Reference" "R5"
-			(at 173.99 49.276 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5K1"
-			(at 173.99 48.006 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 173.99 47.498 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "kicad-embed://C27834.pdf"
-			(at 173.99 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 173.99 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2197b3db-dc23-48a8-93f7-1cd0c6bab3d4")
-		)
-		(pin "2"
-			(uuid "9d0d4190-575f-4852-af59-d8602a283edf")
-		)
-		(instances
-			(project "1STM"
-				(path "/286ad483-c790-4946-96f0-2ab2117b1aa2"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 204.47 22.86 0)
 		(unit 1)
@@ -6970,6 +6911,85 @@
 			(project "1STM"
 				(path "/286ad483-c790-4946-96f0-2ab2117b1aa2"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 26.67 125.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08248a7f-3882-45a9-958c-524bd2188d85")
+		(property "Reference" "R5"
+			(at 30.226 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 28.956 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 28.448 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "kicad-embed://C27834.pdf"
+			(at 26.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d776bac-7e01-4457-b65a-b3778f787dbd")
+		)
+		(pin "2"
+			(uuid "87c9fcc3-0cb0-4b19-9085-0a74acc7c502")
+		)
+		(instances
+			(project "1STM"
+				(path "/286ad483-c790-4946-96f0-2ab2117b1aa2"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7133,7 +7153,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 31.75 171.45 90)
+		(at 31.75 163.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7143,7 +7163,7 @@
 		(dnp no)
 		(uuid "27c2d7e2-1e4c-48f1-93b1-49af0c484bbe")
 		(property "Reference" "R7"
-			(at 31.75 175.006 90)
+			(at 31.75 167.386 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7153,7 +7173,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 31.75 173.736 90)
+			(at 31.75 166.116 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7163,7 +7183,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 31.75 173.228 90)
+			(at 31.75 165.608 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7174,7 +7194,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://C17630.pdf"
-			(at 31.75 171.45 0)
+			(at 31.75 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7185,7 +7205,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 31.75 171.45 0)
+			(at 31.75 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7626,7 +7646,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 38.1 139.7 0)
+		(at 38.1 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7637,7 +7657,7 @@
 		(fields_autoplaced yes)
 		(uuid "38905950-eaeb-4b72-b84e-3e5fc898d328")
 		(property "Reference" "SW1"
-			(at 38.1 132.08 0)
+			(at 38.1 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7647,7 +7667,7 @@
 			)
 		)
 		(property "Value" "B3F-1002"
-			(at 38.1 134.62 0)
+			(at 38.1 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7657,7 +7677,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
-			(at 38.1 134.62 0)
+			(at 38.1 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7668,7 +7688,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 38.1 134.62 0)
+			(at 38.1 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7679,7 +7699,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 38.1 139.7 0)
+			(at 38.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8189,7 +8209,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 147.32 90)
+		(at 53.34 138.43 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8200,7 +8220,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e8faf55-d9ae-41f0-aa87-741bf038e48a")
 		(property "Reference" "#PWR022"
-			(at 59.69 147.32 0)
+			(at 59.69 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8211,7 +8231,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 147.3199 90)
+			(at 57.15 138.4299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8222,7 +8242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 147.32 0)
+			(at 53.34 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8233,7 +8253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 147.32 0)
+			(at 53.34 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8244,7 +8264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 147.32 0)
+			(at 53.34 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8823,7 +8843,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 26.67 123.19 0)
+		(at 26.67 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8834,7 +8854,7 @@
 		(fields_autoplaced yes)
 		(uuid "7025b0b7-26ff-41c4-9f39-930e3946775c")
 		(property "Reference" "#PWR020"
-			(at 26.67 127 0)
+			(at 26.67 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8845,7 +8865,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 29.21 121.9199 0)
+			(at 29.21 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8856,7 +8876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 123.19 0)
+			(at 26.67 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8867,7 +8887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 123.19 0)
+			(at 26.67 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8878,7 +8898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 26.67 123.19 0)
+			(at 26.67 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9062,7 +9082,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 171.45 90)
+		(at 52.07 163.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9073,7 +9093,7 @@
 		(fields_autoplaced yes)
 		(uuid "7332d779-9665-472b-be95-771a9ffa0dab")
 		(property "Reference" "#PWR023"
-			(at 58.42 171.45 0)
+			(at 58.42 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9084,7 +9104,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 171.4499 90)
+			(at 55.88 163.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9095,7 +9115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 171.45 0)
+			(at 52.07 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9106,7 +9126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 171.45 0)
+			(at 52.07 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9117,7 +9137,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 171.45 0)
+			(at 52.07 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9378,7 +9398,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 41.91 154.94 270)
+		(at 41.91 146.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9388,7 +9408,7 @@
 		(dnp no)
 		(uuid "93b6a188-28ea-48e7-94e9-924ec548ff5b")
 		(property "Reference" "C8"
-			(at 40.6399 151.191 0)
+			(at 40.6399 142.301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9399,7 +9419,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 43.1799 151.191 0)
+			(at 43.1799 142.301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9410,7 +9430,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 38.1 155.9052 0)
+			(at 38.1 147.0152 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9421,7 +9441,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://C14663.pdf"
-			(at 41.91 154.94 0)
+			(at 41.91 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9432,7 +9452,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 41.91 154.94 0)
+			(at 41.91 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9616,7 +9636,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 45.72 270)
+		(at 175.26 45.72 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9627,7 +9647,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c921a9f-5f38-4570-89a1-079f2371d4a9")
 		(property "Reference" "#PWR011"
-			(at 163.83 45.72 0)
+			(at 168.91 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9638,7 +9658,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 45.7199 90)
+			(at 171.45 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9649,7 +9669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 45.72 0)
+			(at 175.26 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9660,7 +9680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 45.72 0)
+			(at 175.26 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9671,7 +9691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 45.72 0)
+			(at 175.26 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9931,7 +9951,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 43.18 171.45 0)
+		(at 43.18 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9942,7 +9962,7 @@
 		(fields_autoplaced yes)
 		(uuid "a77af8b4-e6e1-4cfb-9332-a118415efdf1")
 		(property "Reference" "SW2"
-			(at 43.18 163.83 0)
+			(at 43.18 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9952,7 +9972,7 @@
 			)
 		)
 		(property "Value" "B3F-1002"
-			(at 43.18 166.37 0)
+			(at 43.18 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9962,7 +9982,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
-			(at 43.18 166.37 0)
+			(at 43.18 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9973,7 +9993,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 43.18 166.37 0)
+			(at 43.18 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9984,7 +10004,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 43.18 171.45 0)
+			(at 43.18 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10748,86 +10768,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 26.67 134.62 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c906bbc7-8d2b-4f0a-b387-ef00b8416c10")
-		(property "Reference" "R3"
-			(at 23.114 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5K1"
-			(at 24.384 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 24.892 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "kicad-embed://C27834.pdf"
-			(at 26.67 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "962d2e29-82f6-4f5f-8f28-c102387ed142")
-		)
-		(pin "2"
-			(uuid "6f71bce5-c110-4713-ae0c-35326d3057b8")
-		)
-		(instances
-			(project "1STM"
-				(path "/286ad483-c790-4946-96f0-2ab2117b1aa2"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 24.13 78.74 0)
 		(unit 1)
@@ -11492,7 +11432,7 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "10K"
 			(at 181.61 48.006 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11988,85 +11928,6 @@
 			(project "1STM"
 				(path "/286ad483-c790-4946-96f0-2ab2117b1aa2"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 26.67 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "febb939f-69da-4f25-b2cc-5e95875fcaf2")
-		(property "Reference" "R6"
-			(at 23.114 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5K1"
-			(at 24.384 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 24.892 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "kicad-embed://C27834.pdf"
-			(at 26.67 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "637272b6-3959-449e-a782-6816a7cbec76")
-		)
-		(pin "2"
-			(uuid "8323b64b-4032-498e-81a6-ca5e201e4957")
-		)
-		(instances
-			(project "1STM"
-				(path "/286ad483-c790-4946-96f0-2ab2117b1aa2"
-					(reference "R6")
 					(unit 1)
 				)
 			)
