@@ -9,6 +9,7 @@ Pierwszy projekt w tym repo. Cel: przejść cały proces projektowania elektroni
 
 <img width="2184" height="1264" alt="1STM" src="https://github.com/user-attachments/assets/00b93613-cfdf-47ea-9ea7-b908c2bb0e2d" />
 
+<img width="2184" height="1264" alt="1STMbck" src="https://github.com/user-attachments/assets/d1d33a6c-6ded-48b0-98de-f17b5cd75cca" />
 
 ## Zakres (v1)
 
@@ -49,7 +50,7 @@ Zebrana w [`../../docs/components-reference.md`](../../docs/components-reference
 
 **Co zrobiłem:**
     - Ustaliłem zakres v1 płytki (patrz wyżej)
-    - Zebrałem dokumentację i potwierdziłem dostępność symboli/footprintów dla: STM32F411CEU6, złącze USB-C
+    - Zebrałem dokumentację i potwierdziłem dostępność symboli/footprintów dla: STM32F412CEU6, złącze USB-C
     - Założyłem strukturę repozytorium
     - Stworzyłem sekcję zasilania do mcu 
 **Co nie zadziałało / problemy:**
