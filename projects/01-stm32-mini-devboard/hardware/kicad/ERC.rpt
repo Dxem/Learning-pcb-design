@@ -1,0 +1,27 @@
+ERC report (2026-09-03T23:42:53, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[multiple_net_names]: Zarówno GND, jak i GND_USB są powiązane z tym samym elementem. GND został wybrany jako nazwa na liście sieci
+    ; warning
+    @(3700 mils, 1500 mils): Symbol #PWR015 Pin 1 [Wejście zasilania, Linia]
+    @(1250 mils, 3050 mils): Label 'GND_USB'
+[multiple_net_names]: Zarówno +5V, jak i 5V_USB są powiązane z tym samym elementem. +5V został wybrany jako nazwa na liście sieci
+    ; warning
+    @(3200 mils, 900 mils): Symbol #PWR01 Pin 1 [Wejście zasilania, Linia]
+    @(2050 mils, 1050 mils): Label '5V_USB'
+[lib_symbol_mismatch]: Symbol 'AP22112K-3.3TRG1' nie odpowiada jego kopii w bibliotece 'LDO'
+    ; warning
+    @(3700 mils, 1150 mils): Symbol U2 [AP22112K-3.3TRG1]
+[multiple_net_names]: Zarówno +3.3V, jak i VCC są powiązane z tym samym elementem. +3.3V został wybrany jako nazwa na liście sieci
+    ; warning
+    @(8050 mils, 900 mils): Symbol #PWR025 Pin 1 [Wejście zasilania, Linia]
+    @(10200 mils, 3350 mils): Label 'VCC'
+
+ ** ERC messages: 4  Errors 0  Warnings 4
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
