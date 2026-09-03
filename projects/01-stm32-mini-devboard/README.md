@@ -6,6 +6,10 @@ Pierwszy projekt w tym repo. Cel: przejść cały proces projektowania elektroni
 
 **Dodatkowa rola od projektu 02:** ta płytka służy też jako wielokrotnego użytku "carrier" MCU do testowania mniejszych modułów ([02-nrf24-radio-module](../02-nrf24-radio-module/), [03-audio-adc-frontend](../03-audio-adc-frontend/), [04-audio-dac-backend](../04-audio-dac-backend/)) — podpinasz je przewodami do jej złączy GPIO/SPI/I2S zamiast projektować osobny MCU na każdej mniejszej płytce. Zamów przynajmniej 2 sztuki w PCBA, jeśli chcesz testować link radiowy (potrzebujesz dwóch niezależnych carrierów).
 
+
+<img width="2184" height="1264" alt="1STM" src="https://github.com/user-attachments/assets/00b93613-cfdf-47ea-9ea7-b908c2bb0e2d" />
+
+
 ## Zakres (v1)
 
 - Zasilanie z USB-C (5V → 3.3V przez LDO)
