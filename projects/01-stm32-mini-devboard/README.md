@@ -1,4 +1,4 @@
-# 01 — Mini płytka rozwojowa STM32F411
+# 01 — Mini płytka rozwojowa STM32F412
 
 Status: 🟢 Wykonany layout PCB gotowe do zamówienia (etap: przygotowanie do schematu)
 
