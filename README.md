@@ -32,22 +32,11 @@ Uwaga: `docs/components-reference.md` w repo głównym dotyczy konkretnie projek
 
 Każdy projekt ma w swoim `README.md` sekcję **Log postępu** — krótkie, datowane wpisy (co zrobiłem, co nie zadziałało, czego się nauczyłem). To najcenniejsza część repo z punktu widzenia nauki i najbardziej wiarygodna dla kogoś czytającego portfolio — pokazuje proces, nie tylko efekt końcowy.
 
-## Konwencja commitów (proponowana)
-
-Prosty prefiks + krótki opis, np.:
-
-- `schem: dodaj obwod zasilania LDO`
-- `pcb: routing plaszczyzny GND`
-- `docs: notatki z bring-up rev A`
-- `fix: popraw pull-down na BOOT0`
-
-Nie jest to sztywna zasada — chodzi o czytelną historię, którą łatwo przejrzeć za pół roku.
-
 ## Status projektów
 
 | Projekt | Status | Opis |
 |---|---|---|
-| [01-stm32-mini-devboard](projects/01-stm32-mini-devboard/) | 🟡 w toku — dobór komponentów zakończony, schemat 🟢, pcb layout 🟡  | Minimalna płytka dev ze STM32F411, USB-C, SWD; też carrier testowy dla modułów 02-05 |
+| [01-stm32-mini-devboard](projects/01-stm32-mini-devboard/) | 🟢 Gotowe -  dobór komponentów zakończony, schemat - 🟢, pcb layout - 🟢  | Minimalna płytka dev ze STM32F411, USB-C, SWD; też carrier testowy dla modułów 02-05 |
 | [02-nrf24-radio-module](projects/02-nrf24-radio-module/) | 🟡 w toku — plan gotowy, schemat do zrobienia | Moduł radiowy nRF24L01+ (bare chip), własna antena, test punkty na SPI |
 | [03-audio-adc-frontend](projects/03-audio-adc-frontend/) | 🟡 w toku — plan gotowy, schemat do zrobienia | Wejście audio: jack 3.5mm → PCM1808 (ADC) → I2S |
 | [04-audio-dac-backend](projects/04-audio-dac-backend/) | 🟡 w toku — plan gotowy, schemat do zrobienia | Wyjście audio: I2S → PCM5102A (DAC) → NS4160 (wzmacniacz) → jack 3.5mm |
