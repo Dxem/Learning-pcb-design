@@ -1,0 +1,36 @@
+### Footprint positions - created on 2026-09-03T23:49:32 ###
+### Printed by KiCad version 10.0.4
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                          Package                                                       PosX       PosY       Rot  Side
+C1        4u7                          C_0805_2012Metric                                         146.2000  -123.2500   90.0000  top
+C2        100nF                        C_0603_1608Metric                                         148.9750  -122.3000  180.0000  top
+C3        100nF                        C_0603_1608Metric                                         152.4000  -113.7750  -90.0000  top
+C4        100nF                        C_0603_1608Metric                                         143.9250  -110.3000    0.0000  top
+C5        100nF                        C_0603_1608Metric                                         140.5000  -117.7250   90.0000  top
+C6        1u                           C_0603_1608Metric                                         165.6625  -125.2750   90.0000  top
+C7        1u                           C_0603_1608Metric                                         158.3000  -126.2250  -90.0000  top
+C8        100nF                        C_0603_1608Metric                                         121.1000  -108.1250   90.0000  top
+C9        30pF                         C_0805_2012Metric                                         135.2000  -117.1500  -90.0000  top
+C10       30pF                         C_0805_2012Metric                                         135.2000  -113.3500  -90.0000  top
+D1        AMBER_LED                    LED_1206_3216Metric                                       119.9000  -120.7000   90.0000  top
+D2        RED_LED                      LED_1206_3216Metric                                       123.6900  -120.7250   90.0000  top
+J1        USB_C_Receptacle_USB2.0_16P  USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal   164.8800  -115.8500   90.0000  top
+J2        SWD_5P                       PinHeader_1x05_P2.54mm_Vertical                           145.4000  -102.8500  -90.0000  top
+J3        SPI1                         PinHeader_1x04_P2.54mm_Vertical                           145.4000  -131.4000  -90.0000  top
+J4        WE_I2S2                      PinHeader_1x03_P2.54mm_Vertical                           150.6600  -131.2000   90.0000  top
+J5        WY_I2S3                      PinHeader_1x03_P2.54mm_Vertical                           155.9900  -102.9500  -90.0000  top
+J6        GPIO                         PinHeader_1x02_P2.54mm_Vertical                           129.3600  -131.6000   90.0000  top
+R1        5K1                          R_0805_2012Metric                                         156.7000  -113.3125   90.0000  top
+R2        5K1                          R_0805_2012Metric                                         156.7000  -117.9875  -90.0000  top
+R4        10K                          R_0805_2012Metric                                         147.1000  -109.3875  -90.0000  top
+R5        10K                          R_0805_2012Metric                                         136.1875  -108.1000    0.0000  top
+R7        330                          R_0805_2012Metric                                         155.4875  -110.1000    0.0000  top
+R8        65                           R_0805_2012Metric                                         123.6900  -125.7125  -90.0000  top
+R9        65                           R_0805_2012Metric                                         119.8900  -125.6125  -90.0000  top
+SW1       B3F-1002                     SW_TH_Tactile_Omron_B3F-100x                              124.7500  -102.7500    0.0000  top
+SW2       B3F-1002                     SW_TH_Tactile_Omron_B3F-100x                              166.0500  -109.1500  180.0000  top
+U1        STM32F412CEUx                QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm                       146.4000  -116.3000    0.0000  top
+U2        AP2112K-3.3TRG1              SOT-23-5                                                  162.0625  -125.5500  180.0000  top
+Y1        8MHz                         Crystal_SMD_5032-2Pin_5.0x3.2mm                           131.9000  -115.2500   90.0000  top
+## End

@@ -1,0 +1,21 @@
+** Drc report for 1STM.kicad_pcb **
+** Created on 2026-09-03T23:38:10 **
+** Report includes: Errors, Warnings **
+
+** Found 1 DRC violations **
+[lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal' nie odpowiada jego kopii w bibliotece 'Connector_USB'
+    Local override; warning
+    @(164.8800 mm, 115.8500 mm): Footprint J1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
