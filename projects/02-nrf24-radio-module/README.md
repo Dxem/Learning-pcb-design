@@ -47,14 +47,16 @@ Dodaj wyprowadzone pady testowe (małe pady/via, opisane na sitodruku) na:
 
 ## Log postępu
 
-### 2026-08-24 — wydzielenie modułu z projektu integracyjnego
+### 2026-09-28 — Rozpoczęcie prac
 
 **Co zrobiłem:**
-- Rozbiłem pierwotny projekt "wireless-piano-audio-link" na mniejsze, osobno testowalne moduły — ten moduł to czysto RF: antena + SPI, bez audio, bez zasilania na pokładzie
-- Zaplanowałem test punkty na wszystkich liniach SPI + pomiar opóźnienia GPIO-to-GPIO
+-  Przeczytałem datasheet modułu nrf24l01p 
+- zdecydowałem się nie wykorzystywać nowszego modułu nrf54l01 ponieważ wymaga on obudowy qfn 48 co bezpośrednio wpływa na rozrośnięcie się płytki do mniej więcej wielkości devboarda. Moduł radiowy ma mieć postać shielda a do nauki nowszego modułu poświęcę oddzielny projekt
 
 **Czego się nauczyłem:**
 - Standardowy oscyloskop hobbystyczny nie nadaje się do bezpośredniego podglądu sygnału 2.4GHz (pojemność sondy rozstraja antenę, pasmo za wąskie) — ale cyfrowa strona (SPI, timing pakietów) jest w pełni dostępna i to ona faktycznie odpowiada na pytanie "czy to działa wystarczająco szybko"
+- romiar obudów komponentów w sekcji dopasowującej wyjście do antenowego 50 ohm ma znaczenie ze względu na efekty pasożytnicze
 
 **Następny krok:**
 - Schemat w KiCad: nRF24L01+ + referencyjna antena + złącze do carriera STM32
+- zmiana dotychczasowo dobranych komponentó na mniejszy footprint w miejscach gdzie ma to szczególne znaczenie. 
