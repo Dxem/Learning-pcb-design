@@ -4,7 +4,7 @@ Status: 🟢 Wykonany layout PCB gotowe do zamówienia (etap: przygotowanie do s
 
 Pierwszy projekt w tym repo. Cel: przejść cały proces projektowania elektroniki — schemat → PCB → produkcja → montaż → uruchomienie — na małej, tanio produkowalnej płytce.
 
-**Dodatkowa rola od projektu 02:** ta płytka służy też jako wielokrotnego użytku "carrier" MCU do testowania mniejszych modułów ([02-nrf24-radio-module](../02-nrf24-radio-module/), [03-audio-adc-frontend](../03-audio-adc-frontend/), [04-audio-dac-backend](../04-audio-dac-backend/)) — podpinasz je przewodami do jej złączy GPIO/SPI/I2S zamiast projektować osobny MCU na każdej mniejszej płytce. Zamów przynajmniej 2 sztuki w PCBA, jeśli chcesz testować link radiowy (potrzebujesz dwóch niezależnych carrierów).
+**Dodatkowa rola od projektu 02:** ta płytka służy też jako wielokrotnego użytku "carrier" MCU do testowania mniejszych modułów ([02-nrf24-radio-module](../02-nrf24-radio-module/), [03-audio-adc-frontend](../03-audio-adc-frontend/), [04-audio-dac-backend](../04-audio-dac-backend/)) - podpinasz je przewodami do jej złączy GPIO/SPI/I2S zamiast projektować osobny MCU na każdej mniejszej płytce. Do zamówienia przynajmniej 2 szt do testów linka radiowego.
 
 
 <img width="2184" height="1264" alt="1STM" src="https://github.com/user-attachments/assets/00b93613-cfdf-47ea-9ea7-b908c2bb0e2d" />
@@ -36,12 +36,14 @@ Zebrana w [`../../docs/components-reference.md`](../../docs/components-reference
 ├── README.md               ← ten plik
 ├── docs/
 │   └── plan-projektu.md    ← pełny plan: etapy, zasady projektowe, checklisty
-└── hardware/
-    └── kicad/
-        ├── 1STM.kicad_pro
-        ├── 1STM.kicad_sch
-        ├── 1STM.kicad_pcb
-        └── 1STM.kicad_prl
+├── hardware/               ← projekt płytki
+│   └── kicad/
+│       ├── 1STM.kicad_pro
+│       ├── 1STM.kicad_sch
+│       ├── 1STM.kicad_pcb
+│       └── 1STM.kicad_prl
+├── testing/                ← testowanie fizycznych egzemplaży
+└── simulation/             ← teoretyczne przygotowanie pd fizyczne testowanie
 ```
 
 ## Log postępu
@@ -136,3 +138,8 @@ Zebrana w [`../../docs/components-reference.md`](../../docs/components-reference
     - Layout ścieżek w usb - c
 **Następny krok:**
     - Powtórzyć drugi raz routing z wiedzą którą nabyłem przy tej próbie - zobaczymy co się da poprawić
+### 2026-09-29 — Update
+
+**UPDATE:**
+    - Routing nie będzie jeszcze raz realizowany - rezultat jest wystarczający, a optymalizację konstrukcji można wykonywać w nieskończoność
+    - Projekt oprócz schematów hardwareu będzie zawierał również symulację oraz realne pomiary do porównania z teorią
