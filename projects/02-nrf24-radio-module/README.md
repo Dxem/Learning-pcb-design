@@ -41,8 +41,9 @@ Dodaj wyprowadzone pady testowe (małe pady/via, opisane na sitodruku) na:
 02-nrf24-radio-module/
 ├── README.md               ← pełny plan modułu (ten plik zawiera wszystko: zakres, BOM, test punkty)
 ├── docs/                   ← na przyszłość: datasheety, notatki z bring-up, zdjęcia
-└── hardware/
-    └── kicad/
+├── hardware/
+|    └── kicad/
+└── simulation/
 ```
 
 ## Log postępu
@@ -73,4 +74,4 @@ Dodaj wyprowadzone pady testowe (małe pady/via, opisane na sitodruku) na:
 
 **Następny krok:**
 - zrealizować symulację
-- dobrać komponenty do wynikó symulacji
+- dobrać komponenty do wyników symulacji
