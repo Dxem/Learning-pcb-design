@@ -41,8 +41,9 @@ Dodaj wyprowadzone pady testowe (małe pady/via, opisane na sitodruku) na:
 02-nrf24-radio-module/
 ├── README.md               ← pełny plan modułu (ten plik zawiera wszystko: zakres, BOM, test punkty)
 ├── docs/                   ← na przyszłość: datasheety, notatki z bring-up, zdjęcia
-└── hardware/
-    └── kicad/
+├── hardware/
+|    └── kicad/
+└── simulation/
 ```
 
 ## Log postępu
@@ -59,4 +60,18 @@ Dodaj wyprowadzone pady testowe (małe pady/via, opisane na sitodruku) na:
 
 **Następny krok:**
 - Schemat w KiCad: nRF24L01+ + referencyjna antena + złącze do carriera STM32
-- zmiana dotychczasowo dobranych komponentó na mniejszy footprint w miejscach gdzie ma to szczególne znaczenie. 
+- zmiana dotychczasowo dobranych komponentó na mniejszy footprint w miejscach gdzie ma to szczególne znaczenie.
+
+### 2026-10-16 — Początek dopasowania anteny
+
+**Co zrobiłem:**
+-  Wyprowadziłem piny do fizycznej weryfikacji sygnałów 
+- rozpoczęto budowę modelu do dopasowania anteny - wzorując się na application notes Nordic semiconductors, jednak w mojej aplikacji może się okazać że wartości konkretnych elementów mogą się różnić - z tego względu warto zrobić symulację
+
+**Czego się nauczyłem:**
+- Pomimo faktu, że nordic semiconductors sprawdziło konkretne dopasowanie do anteny - jest ono sprawdzone jedynie dla ich konkretnego layoutu - dla customowych rozwiązań należy stosować customowe dopasowania.
+- Wykorzystywanie biblioteki scikit-rf - rozpocząłem naukę i postawiłem pierwsze kroki
+
+**Następny krok:**
+- zrealizować symulację
+- dobrać komponenty do wyników symulacji
