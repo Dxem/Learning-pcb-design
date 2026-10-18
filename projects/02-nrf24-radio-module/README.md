@@ -75,3 +75,18 @@ Dodaj wyprowadzone pady testowe (małe pady/via, opisane na sitodruku) na:
 **Następny krok:**
 - zrealizować symulację
 - dobrać komponenty do wyników symulacji
+- 
+### 2026-10-18 — Początek dopasowania anteny
+
+**Co zrobiłem:**
+-  Wybrałem gotowe rozwiązanie anteny na 2.4 GHz zoptymalizowaną przez Texas Instruments 2.4-GHz Inverted F Antenna (Rev. D)
+-  Dobrałem Oscylator kwarcowy oraz kondensatory obciążeniowe
+
+**Czego się nauczyłem:**
+- niektóre rozwiązania takie jak na przykład konkretny kształt anteny są publicznie i powszechnie dostępne - są zoptymalizowane i udokumentowane do takich właśnie projektów jak ten
+- kondensatory w okolicach rezonatorów kwarcowych powinny mieć dielektryk taki jak NP0 lub C0G - nie zmieniać swojej pojemności pod wpływem różnic temperatury
+
+**Następny krok:**
+- zrealizować symulację
+- dobrać komponenty do wyników symulacji
+- pcb layout
