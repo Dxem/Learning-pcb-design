@@ -1,6 +1,6 @@
 # 03 — Wejście audio: kondycjonowanie + ADC (samodzielna sesja nauki audio-in)
 
-Status: 🟡 w toku — plan gotowy, schemat do zrobienia
+Status: ⚪ czeka — plan gotowy, schemat do zrobienia
 
 Drugi z modułów wydzielonych z [projektu integracyjnego 06](../06-piano-audio-integration/). Ten moduł: **droga sygnału od jacka 3.5mm do cyfrowego strumienia I2S.** Bez radia, bez baterii — czysto analog-front-end + konwersja A/C.
 
