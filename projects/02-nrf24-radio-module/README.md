@@ -62,7 +62,7 @@ Dodaj wyprowadzone pady testowe (małe pady/via, opisane na sitodruku) na:
 - Schemat w KiCad: nRF24L01+ + referencyjna antena + złącze do carriera STM32
 - zmiana dotychczasowo dobranych komponentó na mniejszy footprint w miejscach gdzie ma to szczególne znaczenie.
 
-### 2026-10-16 — Początek dopasowania anteny
+### 2026-10-16 — Ogólny schemat
 
 **Co zrobiłem:**
 -  Wyprowadziłem piny do fizycznej weryfikacji sygnałów 
@@ -91,7 +91,7 @@ Dodaj wyprowadzone pady testowe (małe pady/via, opisane na sitodruku) na:
 - dobrać komponenty do wyników symulacji
 - pcb layout
 
-### 2026-10-19 — Początek dopasowania anteny
+### 2026-10-19 — Symulacje do dopasowania anteny
 
 **Co zrobiłem:**
 -  Wykonano wstępną analizę symulacyjną dla układu proponowanego przez Nordic Semiconductors w nocie aplikacyjnej
