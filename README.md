@@ -38,7 +38,7 @@ Każdy projekt ma w swoim `README.md` sekcję **Log postępu** — krótkie, dat
 |---|---|---|
 | [01-stm32-mini-devboard](projects/01-stm32-mini-devboard/) | 🟢 Gotowe -  dobór komponentów zakończony, schemat - 🟢, pcb layout - 🟢  | Minimalna płytka dev ze STM32F411, USB-C, SWD; też carrier testowy dla modułów 02-05 Start: 24.08.2026 Koniec 03.09.2026 |
 | [02-nrf24-radio-module](projects/02-nrf24-radio-module/) | 🟡 w toku — plan gotowy, schemat do zrobienia | Moduł radiowy nRF24L01+ (bare chip), własna antena, test punkty na SPI Start: 28.09.2026|
-| [03-audio-adc-frontend](projects/03-audio-adc-frontend/) | 🟡 w toku — plan gotowy, schemat do zrobienia | Wejście audio: jack 3.5mm → PCM1808 (ADC) → I2S |
-| [04-audio-dac-backend](projects/04-audio-dac-backend/) | 🟡 w toku — plan gotowy, schemat do zrobienia | Wyjście audio: I2S → PCM5102A (DAC) → NS4160 (wzmacniacz) → jack 3.5mm |
-| [05-power-module](projects/05-power-module/) | 🟡 w toku — plan gotowy, schemat do zrobienia | Bateria LiPo + ładowanie USB-C + ochrona (DW01A) + LDO 3.3V |
-| [06-piano-audio-integration](projects/06-piano-audio-integration/) | 🟡 w toku — architektura i BOM gotowe, czeka na moduły 02-05 | Integracja sprawdzonych modułów w finalne płytki TX/RX do cichej gry na pianinie w nocy |
+| [03-audio-adc-frontend](projects/03-audio-adc-frontend/) | ⚪ czeka — plan gotowy, schemat do zrobienia | Wejście audio: jack 3.5mm → PCM1808 (ADC) → I2S |
+| [04-audio-dac-backend](projects/04-audio-dac-backend/) | ⚪ czeka — plan gotowy, schemat do zrobienia | Wyjście audio: I2S → PCM5102A (DAC) → NS4160 (wzmacniacz) → jack 3.5mm |
+| [05-power-module](projects/05-power-module/) | ⚪ czeka — plan gotowy, schemat do zrobienia | Bateria LiPo + ładowanie USB-C + ochrona (DW01A) + LDO 3.3V |
+| [06-piano-audio-integration](projects/06-piano-audio-integration/) | ⚪ czeka — architektura i BOM gotowe, czeka na moduły 02-05 | Integracja sprawdzonych modułów w finalne płytki TX/RX do cichej gry na pianinie w nocy |
