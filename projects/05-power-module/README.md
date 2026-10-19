@@ -1,6 +1,6 @@
 # 05 — Moduł zasilania: bateria LiPo + ładowanie + ochrona (samodzielna sesja nauki power)
 
-Status: 🟡 w toku — plan gotowy, schemat do zrobienia
+Status: ⚪ czeka — plan gotowy, schemat do zrobienia
 
 Czwarty z modułów wydzielonych z [projektu integracyjnego 06](../06-piano-audio-integration/). Ten moduł jest też **najbardziej samodzielnie użyteczny na przyszłość** — to ogólny "power brick" do zasilania batteryjnego dowolnego kolejnego projektu, nie tylko tego.
 
