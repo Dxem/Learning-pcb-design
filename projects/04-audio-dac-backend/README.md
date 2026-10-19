@@ -1,6 +1,6 @@
 # 04 — Wyjście audio: DAC + wzmacniacz słuchawkowy (samodzielna sesja nauki audio-out)
 
-Status: 🟡 w toku — plan gotowy, schemat do zrobienia
+Status: ⚪ czeka — plan gotowy, schemat do zrobienia
 
 Trzeci z modułów wydzielonych z [projektu integracyjnego 06](../06-piano-audio-integration/). Lustrzane odbicie modułu 03: **droga sygnału od cyfrowego I2S do dźwięku w słuchawkach.**
 
