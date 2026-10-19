@@ -1,6 +1,6 @@
 # 06 — Integracja: bezprzewodowy link audio TX/RX dla pianina
 
-Status: 🟡 w toku — architektura i BOM gotowe; **czeka na potwierdzenie działania modułów 02-05 osobno**, zanim zaczniemy łączyć je w finalne płytki TX/RX
+Status: ⚪ czeka — architektura i BOM gotowe; **czeka na potwierdzenie działania modułów 02-05 osobno**, zanim zaczniemy łączyć je w finalne płytki TX/RX
 
 Cel: cicha gra na pianinie w nocy przez słuchawki bezprzewodowe z niskim opóźnieniem — bez polegania na Bluetooth (AirPods nie nadają się do tego strukturalnie, nawet aptX LL to kompromis). Własny link 2.4GHz (nRF24L01+), gdzie sam projektujesz i nadajnik (TX), i odbiornik (RX) — bez zależności od kodeków komercyjnych słuchawek.
 
