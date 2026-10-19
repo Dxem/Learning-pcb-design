@@ -75,7 +75,7 @@ Dodaj wyprowadzone pady testowe (małe pady/via, opisane na sitodruku) na:
 **Następny krok:**
 - zrealizować symulację
 - dobrać komponenty do wyników symulacji
-- 
+  
 ### 2026-10-18 — Początek dopasowania anteny
 
 **Co zrobiłem:**
@@ -90,3 +90,20 @@ Dodaj wyprowadzone pady testowe (małe pady/via, opisane na sitodruku) na:
 - zrealizować symulację
 - dobrać komponenty do wyników symulacji
 - pcb layout
+
+### 2026-10-19 — Początek dopasowania anteny
+
+**Co zrobiłem:**
+-  Wykonano wstępną analizę symulacyjną dla układu proponowanego przez Nordic Semiconductors w nocie aplikacyjnej
+-  Oceniono tolerancje na efekty pasożytnicze dla układu zaproponowanego przez Nordic
+-  Analiza Smith Chart i SWR
+
+**Czego się nauczyłem:**
+- Nota aplikacyjna proponuje 15+j88Ω jednak z symulacji wynika 19 + j30 Ω, czyli brakuje 1.9nH na każdy pin - różnice mogą wynikać zarówno z obudowy jak i samych długości ścieżek
+- Budżet na dodatkowe ścieżki przy ANT1/ANT2 to tylko ok. 0,25 nH, czyli ułamek milimetra. Dopasowanie jest ciasne, bo część rzeczywista impedancji to ok. 10–20 Ω
+- Antyrezonans C3–C4 w węźle VDD_PA. Jeśli gałąź C3 ma więcej niż ok. 0,5 nH, węzeł przestaje być masą dla w.cz. i balun przestaje działać. (Prawdziwy kondensator to tak naprawdę cewka z kondensatorem w szeregu)
+
+**Następny krok:**
+- pcb layout
+- rozbudować symulację po layoucie - teraz już wiem czego się teoretycznie spodziewać
+- dobrać komponenty do wyników symulacji
