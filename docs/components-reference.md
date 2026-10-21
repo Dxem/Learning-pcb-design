@@ -16,15 +16,15 @@ Dla każdego komponentu: co to jest, skąd wziąć symbol/footprint w KiCad, i *
 
 ---
 
-## 1. MCU — STM32F411CEU6
+## 1. MCU — STM32F412CEU6
 
 ⚠️ **Ważna korekta względem poprzedniej wersji tego dokumentu:** sprawdziłem kartę części w JLCPCB i obudowa to **UFQFPN-48 (7×7mm)**, **nie LQFP48** jak napisałem wcześniej. Litera „U” w oznaczeniu `STM32F411C**E U**6` to właśnie kod obudowy UFQFPN (bez wyprowadzeń na bokach, tylko padów na spodzie + duży pad termiczny/masy na środku). To dokładnie ta sama obudowa, co w popularnym „Black Pill".
 
-- **LCSC/JLCPCB:** `C60420` — [karta części JLCPCB](https://jlcpcb.com/partdetail/STM32F411CEU6/C60420)
+- **LCSC/JLCPCB:** `C60420` — [karta części JLCPCB](https://jlcpcb.com/partdetail/STM32F412CEU6/C60420)
 - Obudowa: **UFQFPN-48, 7×7mm**, rozstaw pinów 0.5mm, z eksponowanym padem termicznym pod spodem
 - Assembly: SMT, PCBA Economic i Standard, MSL3 (przed montażem trzymany w suchym opakowaniu — nie problem przy zamówieniu przez JLCPCB, oni to obsługują)
 - Datasheet (ST, oficjalny): https://www.st.com/resource/en/datasheet/stm32f411ce.pdf
-- Pinout / przegląd: https://www.heisener.com/TechnologyDetail/STM32F411CEU6-Microcontroller-Pinout-Diagram-and-Features
+- Pinout / przegląd: https://www.heisener.com/TechnologyDetail/STM32F412CEU6-Microcontroller-Pinout-Diagram-and-Features
 
 **Symbol/footprint:** ponieważ to QFN (nie QFP), footprint w KiCad to `Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm` (nazwa może się nieznacznie różnić wersją KiCad — **zweryfikuj wymiar exposed pad z datasheetem**, sekcja mechaniczna/"Package information"). Symbol STM32F411 z wbudowanej biblioteki `MCU_ST_STM32F4` pasuje niezależnie od obudowy (to tylko schemat elektryczny) — ale footprint musisz dobrać poprawnie pod QFN, inaczej DRC/3D viewer to wyłapie, ale lepiej wiedzieć od razu.
 

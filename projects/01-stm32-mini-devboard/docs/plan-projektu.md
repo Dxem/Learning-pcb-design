@@ -12,7 +12,7 @@ Minimalna, samodzielna płytka z mikrokontrolerem STM32F4, zasilana z USB-C, pro
 
 **Funkcje płytki:**
 - Zasilanie z USB-C (5V → 3.3V przez LDO)
-- MCU: STM32F411CEU6 (**UFQFPN-48** 7x7mm — nie LQFP48, patrz `../../../docs/components-reference.md` — popularny, tani, dużo przykładów — "black pill" jest na nim oparty)
+- MCU: STM32F412CEU6 (**UFQFPN-48** 7x7mm — nie LQFP48, patrz `../../../docs/components-reference.md` — popularny, tani, dużo przykładów — "black pill" jest na nim oparty)
 - Programowanie/debug: złącze SWD jako prosty 4-5 pin rządek 2.54mm (SWDIO, SWCLK, GND, 3V3, opcjonalnie NRST) — wycięty z taśmy 1x40, patrz baza komponentów (zamiast box headera 2x5 1.27mm, który okazał się słabo dostępny do montażu w JLCPCB)
 - BOOT0 na przełączniku/jumperze (do wejścia w bootloader USB DFU)
 - 1 LED użytkownika + 1 LED zasilania
@@ -31,7 +31,7 @@ To celowo blisko "Blue Pill / Black Pill" — sprawdzony, dobrze udokumentowany 
 2. Zbuduj schemat blokowo: zasilanie → MCU → peryferia (LED/przyciski) → złącza (SWD, GPIO).
 3. Dobierz konkretne komponenty:
    - LDO 3.3V: np. **AP2112K-3.3** (SOT-23-5, do 600mA, tani, powszechny w SMD hobby)
-   - MCU: **STM32F411CEU6** (sprawdź dostępność na LCSC/Mouser)
+   - MCU: **STM32F412CEU6** (sprawdź dostępność na LCSC/Mouser)
    - Kondensatory odsprzęgające: 100nF przy każdej parze VDD/VSS MCU (F411 ma kilka par) + 1-4.7µF na wejściu/wyjściu LDO
    - Rezystory pull-up/pull-down: BOOT0 (pull-down 10k), NRST (pull-up 10k + kondensator 100nF), przyciski (pull-up wewnętrzny w MCU wystarczy, albo zewnętrzny 10k)
 4. Przypisz footprinty (Footprint Assignment) — SOT-23-5, **QFN-48 (UFQFPN-48, z exposed pad)**, 0603 dla R/C.

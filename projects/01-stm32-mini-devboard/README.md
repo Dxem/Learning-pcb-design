@@ -55,8 +55,6 @@ Zebrana w [`../../docs/components-reference.md`](../../docs/components-reference
     - Zebrałem dokumentację i potwierdziłem dostępność symboli/footprintów dla: STM32F412CEU6, złącze USB-C
     - Założyłem strukturę repozytorium
     - Stworzyłem sekcję zasilania do mcu 
-**Co nie zadziałało / problemy:**
-- —
 
 **Czego się nauczyłem:**
 - Dla większości popularnych komponentów nie trzeba rysować footprintów od zera — warto najpierw sprawdzić bibliotekę wbudowaną KiCad, potem SnapMagic/Ultra Librarian, dopiero na końcu rysować ręcznie
